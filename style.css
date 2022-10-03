@@ -1,0 +1,185 @@
+﻿html{
+    scroll-behavior: smooth;
+}
+body {
+    margin:0;
+}
+section{
+    margin:0;
+}
+a{
+    text-decoration: none;
+}
+
+header {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(126,44,176,1) 76%, rgba(44,51,176,1) 96%);
+    height: 64px;   
+    
+}
+#title {
+    color: white;
+    font-family: Arial;
+    font-size: 18px;
+    text-align: center;
+    padding-left: 85px;
+    letter-spacing: 2px;
+    padding-bottom: 17px;
+}
+nav ul {
+    float:right;
+    margin-top:0;
+    margin-right:20px;
+    padding:20px;
+    padding-top:20px;
+    padding-right:85px;
+}
+nav ul li {
+    display: inline-block;
+}
+nav ul li a{
+    padding:10px;
+    color:white;
+    font-family:Arial;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding-left: 15px;
+}
+
+.logoNavContainer {
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+#FondoPrincipal {
+    background: Url(./Images/fondoVioleta.png) center center;
+    background-size:100%;
+    height:88vh;
+}
+
+#imgMia {
+    width: 632px;
+    height: 304px;
+    margin-top: 110px;
+    margin-left: 13px;
+    display: inline-block;
+}
+#Subtitulo {
+    color: #8105c9;
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial;
+    font-weight: bold;
+    padding-top: 0px;
+    text-shadow: #4A235A 2px 2px 4px;
+}
+.centrado {
+    text-align:center;
+}
+#fondoSobreMi {
+    background: Url(./Images/fondoBlanco.png) center center fixed;
+    background-size: 100%;
+    height: 80vh;
+    transition:2s;
+}
+
+.espacios {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#imgDesign {
+    width: 244px;
+    height: 246px;
+    margin-top: 0px;
+    float: right;
+    display: inline-block;
+    opacity: 1;
+}
+
+.sobreMi {
+    padding-left: 191px;
+    font-family: Arial;
+    font-size: 15px;
+    color: #4A235A;
+    line-height: 30px;
+}
+
+#fondoSobreMi h2 {
+    font-family: Arial;
+    color: #4A235A;
+    letter-spacing:3px;
+}
+
+#fondoGris {
+    background: #F0F3F4;
+    background-size: 100%;
+    height: 98vh;
+}
+
+#fondoGris h2 {
+    font-family: Arial;
+    color: #4A235A;
+    letter-spacing: 3px;
+}
+
+#contenedorLogos {
+    padding-top: 123px;
+    text-align: center;
+}
+#logoC {
+    width: 166px;
+    padding-left: 54px;
+    padding-bottom: 42px;
+}
+#logoC:hover {
+    width: 180px;
+    transition: 2s;
+}
+#logoCSharp {
+   
+    width: 268px;
+    padding-left: 100px;
+}
+#logoCSharp:hover {
+    width: 288px;
+    transition: 2s;
+}
+#ultimofooter {
+    text-align: center;
+    background: white;
+    color: #CACFD2;
+    text-align: center;
+    font-size: 0px;
+    height: 200px;
+    padding: 30px;
+}
+#logoLinkedin {
+    width: 50px;
+    padding: 30px;
+}
+#logoLinkedin:hover {
+transition: 2s;
+box-shadow:grey 1px 1px 1px;
+}
+#logoWhatsapp {
+    width: 50px;
+    padding: 30px;
+}
+    #logoWhatsapp:hover {
+        transition: 2s;
+        box-shadow: grey 1px 1px 1px;
+    }
+#logoGithub {
+    width: 50px;
+    padding: 30px;
+}
+#logoGithub:hover {
+    transition: 2s;
+    box-shadow: grey 1px 1px 1px;
+}
+#nombre-footer {
+    letter-spacing: 2px;
+    color: #4A235A;
+    font-size: 12px;
+    font-family: Arial;
+    text-shadow: #B3B6B7 1px 3px 3px;
+}
