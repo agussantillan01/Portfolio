@@ -1,38 +1,59 @@
 ﻿<!DOCTYPE html>
 
-<html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
+
+    <link href="./img/pestaña.png" rel="icon" />
     <meta charset="utf-8" />
     <title>Agustin Santillan</title>
-    <link href="style.css" rel="stylesheet" />
-    <link href="./Images/pestaña.png" rel="icon" />
+    <link href="./Style/style.css" type="text/css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
 </head>
 <body>
     <header>
-        <div class="logoNavContainer">
-            <a id="title" href="index.html">AGUSTIN SANTILLAN</a>
-            <nav>
-                <ul>
-                    <li><a href="#sobreMi">Sobre mi</a></li>
-                    <li><a href="#proyectos">Proyectos</a></li>
-                    <li><a href="#contacto">Contacto</a></li>
-                </ul>
-            </nav>
-        </div>
+
+        <nav class="navbar navbar-expand-lg" id="backgroundHeader">
+            <div class="container-fluid" style="padding-left:60px;">
+                <a class="navbar-brand" style="color:white;" href="#">Santillan Agustin</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a style="color:white;" class="nav-link" href="#sobreMi">Sobre mi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a style="color:white;" class="nav-link" href="#skills">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a style="color:white;" class="nav-link" href="#proyectos">Proyectos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a style="color:white;" class="nav-link" href="#contacto">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
-    <section id="FondoPrincipal">
+    <section style="background: Url(./img/fondoVioletita.png); width:100%; height:90vh;">
         <div class="container centrado">
             <div class="row">
-                <div class="col-md-12">
-                    <img id="imgMia" src="./Images/imgMia.png" alt="Foto Santillan Agustin" />
-                    <p id="Subtitulo"> Estudiante de Tecnicatura Universitaria en Programacion</p>
+                <div class="col-6"></div>
+                <div class="col">
+                    <img id="imgMia" src="./img/imgMia.png" alt="Foto Santillan Agustin" />
+                    <p id="Subtitulo" class="centrado"> Estudiante de Tecnicatura Universitaria en Programacion</p>
                 </div>
-
+                <div class="col-6"></div>
             </div>
         </div>
 
     </section>
-    <section id="fondoSobreMi">
+
+    <section style=" background: Url(./img/fondoBlanco.png) center center fixed; background-size: 100%; height: 80vh; transition: 2s;">
         <br /><br /><br /><br /><br /><br />
         <div id="sobreMi" class="centrado">
             <h2>Sobre mi</h2>
@@ -48,30 +69,114 @@
         </div>
     </section>
 
-    <section id="fondoGris" >
-        <br id="proyectos"/><br />
-        <h2 class="centrado">Proyectos</h2>
-        <hr color="#4A235A" />
-        <div>
-            <div id="contenedorLogos">
-                <a href="https://github.com/agussantillan01/Gestion-Choferes/tree/main/FINAL"target="_blank"><img id="logoC" src="./Images/logoC++.png" alt="Alternate Text" /></a>
-                <a href="https://github.com/agussantillan01/tp-winform-Santillan-Gutierrez"target="_blank"><img id="logoCSharp" src="./Images/logoCSharp.png" alt="Alternate Text" /></a>
-            </div>
+    <section id="skills">
+
+        <div class="containerTech">
+            <div class="centrado" id="tech"></div>
+
+            <h3 style="font-family: Arial; color:#3E0E52">Skills</h3>
+
+            <table class="tech">
+                <tr>
+                    <td><img class="cs" src="./img/csharp.png" alt="csharp"></td>
+                    <td><img class="cpp" src="./img/logoC++.png" alt="cpp"></td>
+                    <td><img class="net" src="./img/LogoNET.png" alt="net"></td>
+                    <td><img class="sql" src="./img/sql.png" alt="sql"></td>
+                </tr>
+                <tr>
+                    <td><img class="html" src="./img/html.png" alt="html"></td>
+                    <td><img class="css" src="./img/css.png" alt="css"></td>
+                    <td><img class="js" src="./img/javascript.png" alt="js"></td>
+                    <td><img class="docker" src="img/Docker-Logo.png" alt="docker"></td>
+                </tr>
+            </table>
         </div>
     </section>
 
-    <footer id="ultimofooter">
-        <br id="contacto"/><br /><br />
-                    <div class="centrado">
-                        <a href="https://www.linkedin.com/in/agustin-santillan/"target="_blank"><img id="logoLinkedin" src="./Images/linkedin.png" alt="Alternate Text" /></a>
-                        <a href="https://api.whatsapp.com/send/?phone=541130005756&text&app_absent=0"target="_blank"><img id="logoWhatsapp" src="./Images/whatsapp.png" alt="Alternate Text" /></a>
-                        <a href="https://github.com/agussantillan01" target="_blank"><img id="logoGithub" src="./Images/github.png" alt="Alternate Text" /></a>
-                        <h6 class="centrado" id="nombre-footer"> SANTILLAN AGUSTIN </h6>
+    <section id="proyectos" style="background: #F4F6F6;">
+        <br /><br /><br />
+        <h3 class="centrado" style="font-family: Arial; color:#3E0E52">Proyectos</h3>
+        <hr />
+        <br /><br /><br />
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card">
+                            <img src="./img/carrito.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Carrito</h5>
+                                <p class="card-text">• App Web form</p>
+                                <p class="card-text">Carrito de compras</p>
+                                <hr />
+                                <p class="card-text">C# - SQL</p>
+                                <a style="float:right;" class="btn btn-primary" href="https://github.com/agussantillan01/tp-Carrito_Santillan_Gutierrez" role="button">Ver Repositorio</a>
+
+                            </div>
+                        </div>
                     </div>
-        
+                    <div class="col">
+                        <div class="card">
+                            <img src="./img/pokemon.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Pokemon (ABM)</h5>
+                                <p class="card-text">• App win form.</p>
+                                <p class="card-text">• Alta, baja y modificacion de pokemon.</p>
+                                <hr />
+                                <p class="card-text">C# - SQL</p>
+                                <a style="float:right;" class="btn btn-primary" href="https://github.com/agussantillan01/tp-winform-Santillan-Gutierrez" role="button">Ver Repositorio</a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="./img/taxi.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Gestion</h5>
+                                <p class="card-text">• App de consola.</p>
+                                <p class="card-text">• Gestion de viajes</p>
+                                <hr />
+                                <p class="card-text">C/C++</p>
+                                <a style="float:right;" class="btn btn-primary" href="https://github.com/agussantillan01/Gestion-Choferes" role="button">Ver Repositorio</a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="./img/coomingsoon.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Comercio</h5>
+                                <p class="card-text">• App web form</p>
+                                <p class="card-text">• Rregistro de productos de un comercio, con ventas a clientes y compras a proveedores.</p>
+                                <hr />
+                                <p class="card-text"> C# - SQL </p>
+                                <a style="float:right;" class="btn btn-secondary" href="#" role="button">Ver Repositorio</a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3"></div>
+
+        </div>
+        <br /><br /><br />
+    </section>
+    <br /><br /><br />
+    <footer id="ultimofooter">
+        <br /><br /><br />
+        <div id="contacto" class="centrado">
+            <a href="https://www.linkedin.com/in/agustin-santillan/" target="_blank"><img id="logoLinkedin" src="./img/linkedin.png" alt="Alternate Text" /></a>
+            <a href="https://api.whatsapp.com/send/?phone=541130005756&text&app_absent=0" target="_blank"><img id="logoWhatsapp" src="./img/whatsapp.png" alt="Alternate Text" /></a>
+            <a href="https://github.com/agussantillan01" target="_blank"><img id="logoGithub" src="./img/github.png" alt="Alternate Text" /></a>
+            <br /><br />
+            <h6 class="centrado" id="nombre-footer"> SANTILLAN AGUSTIN </h6>
+        </div>
 
     </footer>
-
 
 </body>
 </html>

@@ -1,0 +1,167 @@
+﻿html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    color: white;
+    font-family: Arial;
+}
+
+#backgroundHeader {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(126,44,176,1) 76%, rgba(44,51,176,1) 96%);
+    color: white;
+}
+
+#Subtitulo {
+    color: #8105c9;
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial;
+    font-weight: bold;
+    padding-top: 0px;
+    text-shadow: #4A235A 2px 2px 4px;
+}
+
+.centrado {
+    text-align: center;
+}
+
+#fondoSobreMi {
+    background: Url(./img/fondoBlanco.png) center center fixed;
+    background-size: 100%;
+    height: 80vh;
+    transition: 2s;
+}
+
+.espacios {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.sobreMi {
+    padding-left: 191px;
+    font-family: Arial;
+    font-size: 15px;
+    color: #4A235A;
+    line-height: 30px;
+}
+
+.containerTech {
+    text-align: center;
+    padding: 40px 80px;
+    background-color: white;
+    border: rgb(0, 0, 0);
+    background-attachment: fixed;
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 0%;
+}
+
+.tech {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cs {
+    block-size: 33vh;
+    display: inline-block;
+    border-radius: 100%;
+    padding: 0px 30px;
+}
+
+.cpp {
+    height: 30%;
+    block-size: 20vh;
+    display: inline-block;
+    border-radius: 50%;
+    padding: 0px 30px;
+}
+
+.net {
+    block-size: 20vh;
+    display: inline-block;
+    border-radius: 50%;
+    padding: 0px 30px;
+}
+
+.docker {
+    block-size: 20vh;
+    display: inline-block;
+    border-radius: 0%;
+    padding: 0px 0px;
+}
+
+.sql {
+    block-size: 20vh;
+    display: inline-block;
+    border-radius: 0%;
+    padding: 0px 30px;
+}
+
+.html {
+    display: inline-block;
+    block-size: 20vh;
+}
+
+.css {
+    block-size: 20vh;
+    display: inline-block;
+}
+
+.js {
+    block-size: 20vh;
+    display: inline-block;
+}
+
+#ultimofooter {
+    text-align: center;
+    background: white;
+    color: #CACFD2;
+    text-align: center;
+    font-size: 0px;
+    height: 200px;
+    padding: 30px;
+}
+
+#logoLinkedin {
+    width: 71px;
+    padding: 12px;
+}
+
+    #logoLinkedin:hover {
+        transition: 2s;
+        box-shadow: grey 1px 1px 1px;
+    }
+
+#logoWhatsapp {
+    width: 71px;
+    padding: 12px;
+}
+
+    #logoWhatsapp:hover {
+        transition: 2s;
+        box-shadow: grey 1px 1px 1px;
+    }
+
+#logoGithub {
+    width: 71px;
+    padding: 12px;
+}
+
+    #logoGithub:hover {
+        transition: 2s;
+        box-shadow: grey 1px 1px 1px;
+    }
+
+#nombre-footer {
+    letter-spacing: 2px;
+    color: #4A235A;
+    font-size: 12px;
+    font-family: Arial;
+    text-shadow: #B3B6B7 1px 3px 3px;
+}
